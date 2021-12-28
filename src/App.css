@@ -1,38 +1,56 @@
 .App {
   text-align: center;
+  background-color: rgb(236, 236, 236);
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-bar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+
+.bar-left{
+  font-size: 30px;
+ font-family: Roboto;
+}
+.bar-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.about{
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  margin: auto;
+  padding-top: 10rem;
+}
+.left-about,.right-about{
+  height: 100vh;
+  background-color:rgb(236, 236, 236) ;
+}
+ .skill-list{
+   margin: 5rem;
+  display: grid;
+  grid-template-columns: auto auto;
+} 
+.skill-layout{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+.skill-logo{
+  
+  object-fit: contain;
+ max-height: 10rem;
+  max-width: 10rem;
+}
+.range{
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
