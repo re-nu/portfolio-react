@@ -44,7 +44,7 @@
   padding: 1rem;
 }
 .skill-logo{
-  
+  padding: 3px;
   object-fit: contain;
  max-height: 10rem;
   max-width: 10rem;
