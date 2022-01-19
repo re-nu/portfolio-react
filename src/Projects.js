@@ -37,8 +37,8 @@ export function Projects() {
       <div className="project-title">
         PROJECTS
       </div>
-      {projects.map(({name,discription,demo,github})=>(
-        <ProjectLayout name={name} discription={discription} demo={demo} github={github} />
+      {projects.map(({name,discription,demo,github},index)=>(
+        <ProjectLayout name={name} discription={discription} demo={demo} github={github} key={index}/>
       ))}
     
     </div>

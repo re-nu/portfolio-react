@@ -1,16 +1,11 @@
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
+
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
-import { useHistory } from "react-router-dom";
+
 
 export function About() {
-  const history = useHistory();
   return (
     <div className="about" id="about">
       <div className="left-about">

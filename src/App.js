@@ -1,16 +1,16 @@
 import "./App.css";
 
-import { Switch, Route } from "react-router-dom";
-import { useHistory } from "react-router";
+// import { Switch, Route } from "react-router-dom";
+// import { useHistory } from "react-router";
 import Button from "@mui/material/Button";
 import { About } from "./About";
 import { Skills } from "./Skills";
 import { Projects } from "./Projects";
 import { Achievements } from "./Achievements";
-import { Experience } from "./Experience";
+// import { Experience } from "./Experience";
 
 function App() {
-  const history = useHistory();
+  // const history = useHistory();
   return (
     <div className="App">
       <div className="app-bar">
