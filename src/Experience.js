@@ -1,5 +1,5 @@
 export function Experience() {
   return (
-    <div>Experience page</div>
+    <div className="experience" id="experience">Experience page</div>
   );
 }
