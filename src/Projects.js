@@ -25,10 +25,24 @@ export function Projects() {
       img:""
     },
     {
+      name:"Banner Design",
+      discription:"Designed banner for child obesity in react",
+      demo:"https://sleepy-babbage-921cb8.netlify.app/",
+      github:"https://github.com/re-nu/loud-banner-react",
+      img:""
+    },
+    {
       name:"CRUD with form validation",
       discription:"complete curd (create update read delete) using api , form validation using formik in react",
       demo:"https://hardcore-ptolemy-965646.netlify.app/",
       github:"https://github.com/re-nu/products",
+      img:""
+    },
+    {
+      name:"Hall Boking (backend application)",
+      discription:"created halls/rooms , get all unbooked rooms , book a room , get all customers with booked data, build with node.js,express,mongodb",
+      demo:"https://room-booking-task.herokuapp.com/",
+      github:"https://github.com/re-nu/Hall_Booking",
       img:""
     },
   ]
