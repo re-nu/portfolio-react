@@ -9,13 +9,13 @@ export function About() {
   return (
     <div className="about" id="about">
       <div className="left-about">
-        <h3 className="about-hi">Hi I'm </h3>
-        <h2 className="about-name">RENUKA BORADE</h2>
-        <h4 className="about-flstack">Full stack developer</h4>
+        
         <p className="about-content"> Completed electronics and telecommuniction engineering,<br/>
              from Deogiri institude of engineering and management studies,<br/>
-             Aurangabad ,Maharashtra
-        </p>
+             Aurangabad ,Maharashtra<br/><br/>
+             Rank holder in MASSAI competition,<br/>
+             industrial project competition
+        </p>  
         <div className="links">
           <a href="https://github.com/re-nu"><GitHubIcon sx={{ fontSize: 50 }}/></a>
           <a href="https://www.linkedin.com/in/renuka-borade-269082122/"><LinkedInIcon sx={{ fontSize: 50 }}/></a>
@@ -25,7 +25,7 @@ export function About() {
       </div>
         <img
           className="right-about"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe-i7Il3mF9QhZdQ9VaYGa15zh12t7kMopbA&usqp=CAU"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGj6M_G-l3Px7MRfvcTKH1qqf6J00S-M7f3fVxnJ-Lo6liZpzFaKWD1J06stZq4nH_38&usqp=CAU"
           alt="full stack"
         />
     </div>

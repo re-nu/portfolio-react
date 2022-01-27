@@ -31,19 +31,19 @@ export function Skills() {
     },
 
     {
-      name:"mongobd",
+      name:"mongodb",
       image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9ph4ITAiqYEpH-wFI5diZywQT6tFwgGf19hfxWcySfXWXW6xSKf1BlIG77bOAkRxR7cU&usqp=CAU",
       stars:"60%"
     },
   ];
   return (
     <div className="skill-list" id="skills">
-      <div className="skill-title">Skills</div>
+      {/* <div className="skill-title">Skills</div> */}
       <div className="skill-body">
-        <div className="skill-body-left">
-          <img className="skill-img" src="https://5.imimg.com/data5/MX/RL/MY-14863115/soft-skills-training-500x500.jpg"
+        {/* <div className="skill-body-left">
+          <img className="skill-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqoo9zF22KbxOgDMtwtSw87xXorZoccKKPWA&usqp=CAU"
              alt="soft-skill"/>
-        </div>
+        </div> */}
         <div className="skill-body-right">
         {skills.map(({name,image,stars},index)=>(
         <SkillLayout name={name} image={image} stars={stars} key={index}/>
@@ -61,10 +61,10 @@ function SkillLayout({name, image ,stars}) {
   return(
     <div className="skill-layout">
       <div className="skill-left">
-        <img className="skill-logo" src={image} alt={name}/>
+        <h2>{name}</h2>
+        <h3>{stars}</h3>
       </div>
       <div className="skill-right">
-        <p>{stars}</p>
         <div className="range-container" >
           <div className="range" style={styl}></div>
         </div>

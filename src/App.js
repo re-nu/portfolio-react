@@ -7,6 +7,7 @@ import { About } from "./About";
 import { Skills } from "./Skills";
 import { Projects } from "./Projects";
 import { Achievements } from "./Achievements";
+import { Home } from "./Home";
 // import { Experience } from "./Experience";
 
 function App() {
@@ -16,6 +17,12 @@ function App() {
       <div className="app-bar">
         <div className="bar-left">Renuka Borade</div>
         <div className="bar-right">
+
+        <a href="#home" style={{ textDecoration: "none" }}>
+            <Button size="large" variant="text">
+              Home
+            </Button>
+          </a>
           <a href="#about" style={{ textDecoration: "none" }}>
             <Button size="large" variant="text">
               About
@@ -80,6 +87,7 @@ function App() {
           <Achievements />
         </Route>
       </Switch> */}
+      <Home/>
       <About />
       <Skills />
       <Projects />
