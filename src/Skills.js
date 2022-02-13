@@ -38,18 +38,9 @@ export function Skills() {
   ];
   return (
     <div className="skill-list" id="skills">
-      {/* <div className="skill-title">Skills</div> */}
-      <div className="skill-body">
-        {/* <div className="skill-body-left">
-          <img className="skill-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqoo9zF22KbxOgDMtwtSw87xXorZoccKKPWA&usqp=CAU"
-             alt="soft-skill"/>
-        </div> */}
-        <div className="skill-body-right">
         {skills.map(({name,image,stars},index)=>(
         <SkillLayout name={name} image={image} stars={stars} key={index}/>
       ))}
-        </div>
-      </div>
     </div>
   );
 
