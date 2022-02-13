@@ -13,7 +13,7 @@ export function Projects() {
     {
       name:"Shopping cart",
       discription:"shopping cart ,add items to to cart,update quantity,remove item from cart",
-      demo:"",
+      demo:"https://quizzical-franklin-6e3533.netlify.app/",
       github:"https://github.com/re-nu/fruits-app-react",
       img:""
     },
